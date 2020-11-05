@@ -11,7 +11,7 @@ function Slider() {
         
                 <div className='Slide-btn'>
                     <Button
-                    className='btns'
+                    className='btn'
                     buttonStyle='btn--primary'
                     buttonSize='btn-large'
                     >
