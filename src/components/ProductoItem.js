@@ -10,8 +10,8 @@ function ProductoItem(){
                         <img  src="/" alt="producto THSCREEN"
                         className="productoImagen"/>
                     </figure>
-                    <div>
-                        
+                    <div className="InfoProducto">
+                        <h5 className="textProducto"></h5>
                     </div>
                 </Link>
             </li>

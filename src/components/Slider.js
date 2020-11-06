@@ -7,7 +7,7 @@ function Slider() {
     return (
         <div className='Slider-Container'>
             <h1>TH SCREEN</h1>
-            <p>Pantallas Portafolios</p>            
+            <p>Desarrollo de Soluciones Interactivas</p>            
         
                 <div className='Slide-btn'>
                     <Button
