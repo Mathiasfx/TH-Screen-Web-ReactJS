@@ -5,10 +5,10 @@
     font-family: 'Montserrat', sans-serif;
   }
   
-  .home,
-  .services,
-  .products,
-  .sign-up {
+  .Inicio,
+  .Contacto,
+  .Productos,
+  .ListaPrecios {
     display: flex;
     height: 90vh;
     align-items: center;

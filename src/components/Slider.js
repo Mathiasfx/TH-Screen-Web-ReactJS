@@ -6,7 +6,7 @@ import '../App.css';
 function Slider() {
     return (
         <div className='Slider-Container'>
-            <h1>TH SCREEN</h1>
+            <img src='images/logotlt.png' />
             <p>Desarrollo de Soluciones Interactivas</p>            
         
                 <div className='Slide-btn'>

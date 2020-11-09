@@ -1,20 +1,25 @@
 import React, {Fragment} from 'react';
 import { Link } from 'react-router-dom';
 
-function ProductoItem(){
+
+function ProductoItem({src,text,path}){
     return(
         <Fragment>
-            <li className="productoItem">
-                <Link className="productosItemLink">
-                    <figure>
-                        <img  src="/" alt="producto THSCREEN"
-                        className="productoImagen"/>
+            <li className="productos__item">
+                <Link className="productos__item__link" to={path}>
+                    <figure className="productos__item__pic-wrap">
+                        <img  
+                        src={src} alt="producto THSCREEN"
+                        className="productos__item__img"
+                        />
                     </figure>
-                    <div className="InfoProducto">
-                        <h5 className="textProducto"></h5>
+                    <div className="productos__item__info">
+                        <h5 className="productos__item__text">{text}</h5>                        
                     </div>
                 </Link>
             </li>
+
+            
 
         </Fragment>
     )
