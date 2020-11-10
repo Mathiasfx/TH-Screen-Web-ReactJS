@@ -1,0 +1,22 @@
+
+ .Container-Seccion{
+    width: 100%;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    background-color:rgb(196, 61, 61);    
+    color: #242424;
+    text-align: center;
+   
+  }
+
+  .Container-Seccion h2{
+     
+    color: #fff;
+    text-align: center;
+   
+  }
+
+
+  
+  
