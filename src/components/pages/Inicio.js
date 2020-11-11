@@ -13,7 +13,7 @@ function  Inicio () {
             <Slider/>
             <Productos/>
             <WhatsAppWidget 
-            phoneNumber='543704355467'
+            phoneNumber='5491144231448'
             message='Hola! 👋🏼  ¿Como te podemos ayudar?'
             companyName='TH Screen'
             textReplyTime='Normalmente responde en 1 hora'
