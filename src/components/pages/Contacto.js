@@ -11,7 +11,7 @@ function  Inicio () {
                 <h2>Formulario de Contacto</h2>
                 <Formulario/>
             </div>         
-            <Footer/>
+            
         </Fragment>
     )
 }

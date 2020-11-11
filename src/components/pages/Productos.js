@@ -8,7 +8,7 @@ function  Inicio () {
     return(
         <Fragment>
             <ProductosSeccion/>
-            <Footer/>
+            
         </Fragment>
     )
 }

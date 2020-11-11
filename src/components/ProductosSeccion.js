@@ -62,21 +62,40 @@ const ProductosSeccion = () => {
                                 text="Mesa Interactiva"
                                 path="Mesa-Interactiva"
                             />
-                            <ProductoItem
+                           
+                            	<ProductoItem
                                 src="images/thbot3D.jpg"
                                 text="Kits TH-BOT"
                                 path="Kits TH-BOT"
                             />
-                            <ProductoItem
+                             <ProductoItem
                                 src="images/thbot2.jpg"
                                 text="Kits TH-Creativo"
                                 path="Kits TH-Creativo"
                             />
+
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div className="productos__container">
+                    <div className="productos__wrapper">
+                        <ul className="productos__items">
+                       
+                             
                             <ProductoItem
                                 src="images/thbot3.jpg"
                                 text="KIT TH Docente"
                                 path="KIT TH Docente"
                             />
+                            
+                            <ProductoItem
+                                src="images/caja-herramientas.jpg"
+                                text="Trabajos a Medida"
+                                path="Trabajos-a-medida"
+                            />
+
 
 
                         </ul>

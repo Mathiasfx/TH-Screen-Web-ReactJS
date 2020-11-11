@@ -6,8 +6,10 @@ import '../App.css';
 function Slider() {
     return (
         <div className='Slider-Container'>
-            <img src='images/logotlt.png' />
-            <p>Desarrollo de Soluciones Interactivas</p>            
+            <img className='logoslider' src='images/logotlt.png' />
+            <h4>Soluciones Tecnoeducativas y para Empresas</h4>    
+            <p>Convertimos en Táctil Pantallas, Pizarrones</p>
+            <p> Rotafolios o cualquier superficie. </p>        
         
                 <div className='Slide-btn'>
                     <Button

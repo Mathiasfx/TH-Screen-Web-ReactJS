@@ -6,6 +6,7 @@ import Inicio from './components/pages/Inicio';
 import Productos from './components/pages/Productos';
 import ListaPrecios from './components/pages/ListaPrecios';
 import Contacto from './components/pages/Contacto';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path='/Lista-de-Precios' exact component={ListaPrecios} />
             <Route path='/Contacto' exact component={Contacto} />
           </Switch>
+      <Footer/>
       </Router>
     </Fragment>
     

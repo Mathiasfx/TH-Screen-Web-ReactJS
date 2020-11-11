@@ -40,7 +40,7 @@ function Productos() {
             <ul className="productos__items">
               <ProductoItem
                 src="images/pantalla-thscreen.jpg"
-                text="Pantalla Tactil"                
+                text="Pantalla Táctil"                
                 path="Pantalla-Tactil"
               />
               <ProductoItem
@@ -52,7 +52,12 @@ function Productos() {
                 src="images/mesa-thscreen.jpg"
                 text="Mesa Interactiva"                
                 path="Mesa-Interactiva"
-              />             
+              />           
+              <ProductoItem
+                src="images/caja-herramientas.jpg"
+                text="Trabajos a Medida"                
+                path="Trabajos-a-medida"
+              />   
             </ul>
           </div>
         </div>
