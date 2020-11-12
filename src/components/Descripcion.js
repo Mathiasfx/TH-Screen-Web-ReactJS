@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Descripcion.css';
 
 function Descripcion({descripcion,link}) {
@@ -9,8 +10,10 @@ function Descripcion({descripcion,link}) {
     
     return (
         <div className='desc'>
-            <p>{descripcion}</p>           
-            <a href={linkok}>{linkok}</a>    
+            <p>{descripcion}</p>
+            <Link to={linkok}>           
+            <span>{linkok}</span>   
+            </Link>     
         </div>
     )
 }

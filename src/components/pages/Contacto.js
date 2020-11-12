@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import '../../App.css';
-import Formulario from '../../components/Formulario';
+
 
 
 

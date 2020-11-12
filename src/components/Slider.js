@@ -6,7 +6,7 @@ import '../App.css';
 function Slider() {
     return (
         <div className='Slider-Container'>
-            <img className='logoslider' src='images/logotlt.png' />
+            <img className='logoslider' src='images/logotlt.png' alt='Logo THSCREEN'/>
             <h4>Soluciones Tecnoeducativas y para Empresas</h4>    
             <p>Convertimos en Táctil Pantallas, Pizarrones</p>
             <p> Rotafolios o cualquier superficie. </p>        
@@ -16,6 +16,7 @@ function Slider() {
                     className='btn'
                     buttonStyle='btn--primary'
                     buttonSize='btn-large'
+                    path='Contacto'
                     >
                         CONTACTARME
                     </Button>
