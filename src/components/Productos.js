@@ -30,7 +30,7 @@ function Productos() {
               <ProductoItem
                 src="images/pizarron-pared-thscreen.jpg"
                 text="Pizarron Digital"
-                path="Pizarron Digital"
+                path="Pizarron-Digital"
               />
             </ul>
           </div>

@@ -8,6 +8,10 @@ import ListaPrecios from './components/pages/ListaPrecios';
 import Contacto from './components/pages/Contacto';
 import TableroDigital from './components/pages/TableroDigital';
 import Rotafolio from './components/pages/Rotafolio';
+import PantallaTactil from './components/pages/PantallaTactil';
+import PizarronFijo from './components/pages/PizarronFijo';
+import PizarronDigitalMovil from './components/pages/PizarronDigitalMovil';
+import MesaInteractiva from './components/pages/MesaInteractiva'
 import Footer from './components/Footer';
 
 function App() {
@@ -22,6 +26,10 @@ function App() {
             <Route path='/Contacto' exact component={Contacto} />
             <Route path='/Tablero-Digital' exact component={TableroDigital}/>
             <Route path='/Rotafolio-thscreen' exact component={Rotafolio}/>
+            <Route path='/Pantalla-Tactil' exact component={PantallaTactil}/>
+            <Route path='/Pizarron-Digital' exact component={PizarronFijo}/>
+            <Route path='/Pizarron-Digital-movil' exact component={PizarronDigitalMovil}/>
+            <Route path='/Mesa-Interactiva' exact component={MesaInteractiva}/>
           </Switch>
       <Footer/>
       </Router>
