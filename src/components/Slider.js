@@ -22,6 +22,7 @@ function Slider() {
                     </Button>
 
                 </div>
+           
         </div>
     );
 }

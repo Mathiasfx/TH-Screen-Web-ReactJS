@@ -2,7 +2,8 @@ import React, {Fragment} from 'react';
 import '../../App.css';
 import Productos from '../Productos';
 import Slider from '../Slider';
-import Footer from '../Footer';
+import Baner from '../Baner';
+import logo from '../../images/fsf.png';
 import WhatsAppWidget from 'react-whatsapp-widget'
 import 'react-whatsapp-widget/dist/index.css'
 import CalltoAction from '../CalltoAction';
@@ -11,6 +12,7 @@ function  Inicio () {
     return(
         <Fragment>
             <Slider/>
+            <Baner/>
             <Productos/>
             <WhatsAppWidget 
             phoneNumber='5491144231448'
@@ -22,6 +24,7 @@ function  Inicio () {
             titulo='Fabricado en'
             subtitulo='Argentina'
             contenido=' Incluye Software de Pizarra Digital y para creación de actividades Interactivas y Colaborativas'
+            logo={logo}
             />
             
         </Fragment>

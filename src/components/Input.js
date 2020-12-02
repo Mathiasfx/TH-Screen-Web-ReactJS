@@ -11,8 +11,7 @@ const Input = ({type,name,ref,placeholder,error,label}) => {
             ref={ref}
             placeholder={placeholder}
             />
-           <p className='error'>{error}</p> 
-            
+           <p className='error'>{error}</p>            
         </div>
     )
 }

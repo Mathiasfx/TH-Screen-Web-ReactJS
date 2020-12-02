@@ -2,7 +2,7 @@ import React from 'react';
 import './CalltoAction.css';
 import '../App.css';
 
-function CalltoAction({titulo,subtitulo,contenido}) {
+function CalltoAction({titulo,subtitulo,contenido,logo}) {
     return (
         <div className='containerCall'>
         <section className='sectioncall'>
@@ -12,6 +12,7 @@ function CalltoAction({titulo,subtitulo,contenido}) {
                         <div className="line-heading-left">
                             <h2>{titulo}</h2>
                             <h4>{subtitulo}</h4>
+                            <img src={logo} alt='logo formosa software factory' height='70px'/>
                         </div>
                         <p>{contenido}</p>
                     </div>

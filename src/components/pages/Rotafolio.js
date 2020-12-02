@@ -20,7 +20,7 @@ function Rotafolio() {
             img='./images/rotafolio-thscreen.jpg'
             titulo='Rotafolio Digital THScreen 2 en 1'
             descripcion={ReactHtmlParser(descrip)}
-            precio='$24.900'
+            precio='$38700'
             path='Contacto'  
             link=''/>
 

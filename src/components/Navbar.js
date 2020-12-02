@@ -32,6 +32,7 @@ function Navbar() {
     //añade un listener al tamaño de la pantalla para ver si mostar o no los botones en mobil
     window.addEventListener('resize',mostrarBotton);
 
+
     return (
        <Fragment>
            <nav className="navbar">
@@ -52,7 +53,7 @@ function Navbar() {
                             <Link to='/productos' className='nav-links' onClick={cerrarMenuMobile}> Productos </Link>
                         </li>                       
                         <li className='nav-item'>
-                            <Link to='/Lista-de-precios' className='nav-links' onClick={cerrarMenuMobile}> Lista de Precios </Link>
+                            <a href='https://drive.google.com/file/d/1yA4JmTbEa9Sc-UqwKvAge1DChGFvQPwM/view?usp=sharing' className='nav-links' onClick={cerrarMenuMobile}> Lista de Precios </a>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contacto' className='nav-links' onClick={cerrarMenuMobile}> Contacto </Link>

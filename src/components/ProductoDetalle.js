@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 
 function ProductoDetalle({ img, titulo, descripcion, precio,path,link }) {
 
+
+
     return (
         <div className='wrapperProduct'>
             <div className="col-1-2">
@@ -28,6 +30,9 @@ function ProductoDetalle({ img, titulo, descripcion, precio,path,link }) {
                         <Link  to={path}>
                              <span className="button">Obtener</span>
                         </Link>
+                        <a href='http://www.thscreen.ar/descargas/especificaciones.pdf'>
+                             <span className="buttonCaract">Especificaciones</span>
+                        </a>
                         <div className='precio'>
                             {precio}
                         </div>

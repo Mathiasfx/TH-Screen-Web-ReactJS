@@ -8,10 +8,9 @@ function Footer (){
                 <div className='Footer-links-wrapper'>
                     <div className='Footer-links-item'>
                         <h2>Sobre Nosotros</h2>
-                        <p>Desarrollamos soluciones Interactivas Consiste en sensores 
-                        colocados en derredor de una Superficie Blanca , sobre la cual podemos 
-                        escribir mientras se proyecta una imagen o aunque no haya imagen proyectada
-                         y lo que hagamos con el dedo o un marcador queda digitalizado.</p>
+                        <p>Convertimos en Interactivas distintas superficies trabajando con sensores y Software que permiten Digitalizar lo que se escribe con un Fibrón o Interactuar con las imágenes proyectadas desde un cañon o de un LCD , en forma táctil.
+El Software complementario permite generar clases o Presentaciones interactivas y Motivadoras. 
+Desarrollamos soluciones a medida, implementamos y capacitamos a los recursos , para sacar el mayor provecho a la herramienta Digital elegida .</p>
                     </div>                  
                 </div>
             </div>

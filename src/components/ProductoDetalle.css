@@ -80,6 +80,7 @@ img{ max-width: 100%; }
   display: inline-block;
   margin-top: 35px;
   padding: 12px 25px;
+  margin-left: 10px;
   font-size: 16px;
   text-decoration: none;
   background-color: #da1e1e;
@@ -87,6 +88,21 @@ img{ max-width: 100%; }
   transition: 0.25s ease;
 }
 
+.buttonCaract{
+  display: inline-block;
+  margin-top: 35px;
+  padding: 12px 25px;
+  margin-left: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #888888;
+  color: white;
+  transition: 0.25s ease;
+}
+
+.buttonCaract:hover{
+  background-color: #da1e1e;
+}
 .button:hover{
   background-color: #323232;
 }

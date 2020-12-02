@@ -17,7 +17,7 @@ function TableroDigital() {
                 img='./images/thscreenpizarra.jpg'
                 titulo='Tablero Digital THSCREEN'
                 descripcion={ReactHtmlParser(descrip)}
-                precio='$14.900'
+                precio='$15480'
                 path='Contacto'  
                 link='https://youtu.be/ry8irsYttc8'         
             />        

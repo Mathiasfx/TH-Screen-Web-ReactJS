@@ -9,15 +9,24 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0,0, 0.2);
     background-image: url('../images/sliderthscreen.jpg');
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .Slider-Container >h4 {
-    margin-top: -150px;
+    margin-top: -110px;
     font-size: 25px;
 }
 
+
+.Slider-Container >h3 {
+    margin-top: 25px;
+    color:#b5262d;
+}
+
 .logoslider{
-    margin-bottom: 140px;
+    position: absolute;
+    margin-top: -210px;
+    z-index: 2;
 }
 
 .Slider-Container > p {

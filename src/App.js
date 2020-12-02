@@ -22,7 +22,7 @@ function App() {
           <Switch>
             <Route path='/' exact component={Inicio} />
             <Route path='/Productos' exact component={Productos} />
-            <Route path='/Lista-de-Precios' exact component={ListaPrecios} />
+            <Route exact path='/Lista-de-Precios' render={()=>(window.open = "https://docs.google.com/spreadsheets/d/1kgiaa9-W2RSO9kGq7oohljOYZ1MAl4ZIdNWbR5ch_pU/edit#gid=0","_blanck")}/>  
             <Route path='/Contacto' exact component={Contacto} />
             <Route path='/Tablero-Digital' exact component={TableroDigital}/>
             <Route path='/Rotafolio-thscreen' exact component={Rotafolio}/>
