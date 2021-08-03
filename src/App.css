@@ -5,10 +5,10 @@
     font-family: 'Montserrat', sans-serif;
   }
   
-  .home,
-  .services,
-  .products,
-  .sign-up {
+  .Inicio,
+  .Contacto,
+  .Productos,
+  .ListaPrecios {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,4 +16,13 @@
     font-size: 3rem;
   }
   
+  .Contacto-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;      
+    align-items: center;
+    color: #242424;
+    text-align: center;
+  }
   

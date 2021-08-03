@@ -1,0 +1,71 @@
+.baner{
+    width: 70%;
+    height: 240px;
+    background:#fff;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedorAndroid{
+    display: block;
+}
+
+.recuadros{
+    display: flex;
+    flex-direction: row;
+}
+.servicios{
+    margin: 1rem;
+    padding-top:0.5rem;
+    text-align: center;
+}
+
+.baner h3{
+    text-align: center;    
+    font-size: 2em;
+}
+.baner p{
+    text-align: center;    
+}
+
+.effect2{
+	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
+.rounded{
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: right center;
+    width: 80px;
+    height: 80px;
+    transform: rotate(-20deg);
+    transition-property: transform, object-position;
+    transition-duration: 0.2s, 0.2s;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+  }
+  
+  
+  .rounded:hover {
+    object-position: left center; 
+    transform: rotate(0deg) scale(1.5);
+  }
+
+@media screen and (max-width: 960px) {
+    .baner{
+        width: 100%;
+        height: 880px;
+    }
+    .baner h3{
+        text-align: center;    
+        font-size: 1.6em;
+    }
+    .recuadros{
+        flex-direction: column;
+    }
+}
